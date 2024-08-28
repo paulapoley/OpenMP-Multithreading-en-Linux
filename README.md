@@ -4,7 +4,7 @@
 Este repositorio contiene los programas desarrollados para la práctica de la asignatura Arquitectura de Sistemas y Software de Base de 4º de Ingeniería de la Salud, ejecutados en un entorno Linux. El proyecto aborda la programación de procesadores multinúcleo utilizando OpenMP en un entorno Linux, explorando técnicas de paralelización, sincronización de hilos, y optimización del rendimiento en cálculos complejos como la estimación del valor de Pi.
 
 ## 1. Contenidos del Repositorio 
-El repositorio está organizado en varias carpetas principales: /data, /src, /docs, y un archivo adicional. Cada uno de estos elementos contiene componentes relevantes para el proyecto
+El repositorio está organizado en varias carpetas principales: /src, /docs, y un archivo adicional. Cada uno de estos elementos contiene componentes relevantes para el proyecto
 ### 1.1. Código fuente (src)
 La carpeta /src contiene los scripts y programas desarrollados durante la práctica:
   - [hello.c](src/hello.c): Programa básico "Hello World" en C. 
@@ -19,6 +19,12 @@ La carpeta /src contiene los scripts y programas desarrollados durante la práct
 ### 1.2. Documentos (docs)
 La carpeta /docs incluye el documento:
 [Procesadores-multinucleo-openmp-PPC.pdf](docs/Procesadores-multinucleo-openmp-PPC.pdf): PDF del trabajo.
+
+### 1.3 Archivo Adicional 
+Además, el repositorio incluye un archivo relevante:
+
+-**Descripción del Proyecto:** [README.md](README.md) - Archivo que ofrece una explicación general del proyecto y sus componentes.
+
   
 ## 2. Características Principales
 -**Lenguaje utilizado:** C con OpenMP
