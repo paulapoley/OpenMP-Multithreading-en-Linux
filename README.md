@@ -7,7 +7,6 @@ Este repositorio contiene los programas desarrollados para la práctica de la as
 El repositorio está organizado en varias carpetas principales: /data, /src, /docs, y un archivo adicional. Cada uno de estos elementos contiene componentes relevantes para el proyecto
 ### 1.1. Código fuente (src)
 La carpeta /src contiene los scripts y programas desarrollados durante la práctica:
-**Programas en C:**
   - [hello.c](src/hello.c): Programa básico "Hello World" en C. 
   - [hello_par.c](src/hello_par.c): Versión paralela del programa "Hello World" usando OpenMP.
   - [pi_serie.c](src/pi_serie.c): Estimación secuencial del valor de Pi.
@@ -23,11 +22,14 @@ La carpeta /docs incluye el documento:
   
 ## 2. Características Principales
 -**Lenguaje utilizado:** C con OpenMP
+
 -**Entorno:** Sistema operativo: Linux
+
 -**Temas abordados:**
   - Creación y gestión de hilos.
   - Sincronización de hilos con critical y atomic.
   - Optimización de rendimiento en cálculos paralelos.
+    
 -**Programas desarrollados:**
   - Ejecución y análisis de un programa simple "Hello World" en paralelo.
   - Estimación del valor de Pi mediante series matemáticas en versiones tanto secuenciales como paralelas.
