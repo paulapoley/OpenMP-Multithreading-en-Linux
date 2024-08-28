@@ -7,15 +7,15 @@ Este repositorio contiene los programas desarrollados para la práctica de la as
 El repositorio está organizado en varias carpetas principales: /data, /src, /docs, y un archivo adicional. Cada uno de estos elementos contiene componentes relevantes para el proyecto
 ### 1.1. Código fuente (src)
 La carpeta /src contiene los scripts y programas desarrollados durante la práctica:
-- **Programas en C:**
-  [hello.c](src/hello.c): Programa básico "Hello World" en C. 
-  [hello_par.c](src/hello_par.c): Versión paralela del programa "Hello World" usando OpenMP.
-  [pi_serie.c](src/pi_serie.c): Estimación secuencial del valor de Pi.
-  [pi_par1.c](src/pi_par1.c): Primera versión paralela para estimar el valor de Pi.
-  [pi_par2.c](src/pi_par2.c): Optimización usando private.
-  [pi_par3.c](src/pi_par3.c): Implementación con región crítica (critical).
-  [pi_par4.c](src/pi_par4.c): Versión optimizada utilizando atomic.
-  [pi_par5.c](src/pi_par5.c): Versión final con reducción paralela para mejor rendimiento
+**Programas en C:**
+  - [hello.c](src/hello.c): Programa básico "Hello World" en C. 
+  - [hello_par.c](src/hello_par.c): Versión paralela del programa "Hello World" usando OpenMP.
+  - [pi_serie.c](src/pi_serie.c): Estimación secuencial del valor de Pi.
+  - [pi_par1.c](src/pi_par1.c): Primera versión paralela para estimar el valor de Pi.
+  - [pi_par2.c](src/pi_par2.c): Optimización usando private.
+  - [pi_par3.c](src/pi_par3.c): Implementación con región crítica (critical).
+  - [pi_par4.c](src/pi_par4.c): Versión optimizada utilizando atomic.
+  - [pi_par5.c](src/pi_par5.c): Versión final con reducción paralela para mejor rendimiento
   
 ### 1.2. Documentos (docs)
 La carpeta /docs incluye el documento:
